@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main img {
+    background-image: url("C:\Users\USMAN\Documents\Code\order-summary-component-main\images\pattern-background-mobile.svg");
+}
+
+.container {
+    padding: 25px 10px;
+}
+
+.header img {
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 18px;
+    text-align: center;
+}
+
+p {
+    padding: 0 65px 10px;
+    text-align: center;
+    font-size: 18px;
+    color: #B5B5B5;
+}
+
+.flex {
+    display: flex;
+    padding: 10px;
+    background-color: #F5F5F5;
+    border-radius: 10px;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.link a {
+    color: #0000FF;
+    font-weight: 600;
+}
+
+.link a:hover {
+    text-decoration: none;
+}
+
+button {
+    border: 0;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 20px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 14px;
+    background: #88B7D5;
+    color: #ffffff;
+    width: 92%;
+    box-shadow: 1px 34px 50px -31px rgba(108, 150, 171, 0.6);
+}
+
+.cancel {
+    text-align: center;
+    padding: 15px;
+}
+
+.cancel a {
+    color: #808080;
+    text-decoration: none;
+    font-weight: 700;
+    text-decoration: none;
+}
